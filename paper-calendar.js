@@ -1,4 +1,4 @@
-Polymer({
+Polymer('paper-calendar', {
   publish: {
     /**
        * The `format` attribute details http://momentjs.com/docs/#/parsing/string-format/.
