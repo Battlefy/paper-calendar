@@ -20,7 +20,7 @@ Element providing solution to no problem in particular.
 @homepage http://Wenqer.github.io/paper-calendar
 -->
 
-<polymer-element name="paper-calendar">
+<polymer-element name="paper-calendar" tabindex='0' on-blur="{{ toggleInput }}">
   <template>
     <link rel="stylesheet" href="paper-calendar.css">
     <core-field class="field">
