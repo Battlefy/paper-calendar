@@ -42,17 +42,40 @@
 }
 .days {
   width: 40px;
+  min-width: 40px;
 }
+
+.days paper-button {
+  margin: 0;
+  width: 40px;
+  min-width: 40px;
+}
+
 .days.fade {
   color: #c9c9c9;
 }
 .months {
   width: 100px;
+  min-width: 100px;
+}
+
+.months paper-button {
+  margin: 0;
+  width: 100px;
+  min-width: 100px;
 }
 
 .years {
   width: 60px;
+  min-width: 60px;
 }
+
+.years paper-button {
+  margin: 0;
+  width: 60px;
+  min-width: 60px;
+}
+
 .days.core-selected,
 .months.core-selected,
 .years.core-selected {
